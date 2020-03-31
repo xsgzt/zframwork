@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap_update_dailog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/offset_20dp"
+        android:text="提示"
+        android:textColor="#333333"
+        android:textSize="@dimen/font_size_18sp" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/offset_30dp"
+        android:layout_marginRight="@dimen/offset_30dp"
+        android:layout_marginTop="@dimen/offset_15dp"
+        android:text="绑定银行卡才可以提现哟！绑定银行卡才可以提现哟绑定银行卡才可以提现哟绑定银行卡才可以提现哟"
+        android:textColor="#333333"
+        android:textSize="@dimen/font_size_16sp" />
+
+    <include
+        layout="@layout/devide_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/offset_22dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/offset_12dp"
+            android:paddingTop="@dimen/offset_12dp"
+            android:text="暂不更新"
+            android:textColor="#ff999999"
+            android:textSize="@dimen/font_size_18sp" />
+
+        <View
+            android:layout_width="@dimen/offset_1dp"
+            android:layout_height="match_parent"
+            android:background="#ffededed" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/offset_12dp"
+            android:paddingTop="@dimen/offset_12dp"
+            android:text="更新"
+            android:textColor="@color/main"
+            android:textSize="@dimen/font_size_18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
